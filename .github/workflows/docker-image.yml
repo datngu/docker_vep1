@@ -33,5 +33,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ndatth/aivep1:v0.0.0
+          tags: ndatth/vep_borzoi:v0.0.0
           labels: ${{ steps.meta.outputs.labels }}
