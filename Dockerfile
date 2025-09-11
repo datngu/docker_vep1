@@ -14,7 +14,6 @@ for i in range(4):
     model_id = f"johahi/borzoi-replicate-{i}"
     print(f"\n>>> Downloading and testing {model_id}")
     model = Borzoi.from_pretrained(model_id)
-    _ = model.model  # touch the underlying model to ensure it is loaded
     print(f"✔ Successfully loaded {model_id}")
 EOF
 
